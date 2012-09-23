@@ -1,0 +1,15 @@
+This is an implementation of Snowball Sampling for Data Mining in Python.
+Credits: "Social Network Analysis for Startups" book
+
+The program files in here can mine data from LiveJournal and graph social
+networks using Matplotlib.  
+
+Libraries Required:
+networkx - Graph Data Structures and Graph Algorithms
+matplotlib - Physically graphing the data structures and social networks
+
+Files Included:
+livejournal.py - Contains Python Wrapper for calling the LJ API
+main.py - Contains the main code to graph a social network
+snowballsampling.py - Contains the implementation for the Snowball Sampling
+                      data mining method

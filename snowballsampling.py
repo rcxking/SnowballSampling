@@ -30,6 +30,7 @@ Snowball sampling works by performing the following steps:
       return and exit out of this recursive level.
 5) Return a graph data structure containing all friends and their relationships
  to each other.  
+'''
    
 def snowball_sampling(g, center, max_depth = 1, current_depth = 0, taboo_list = []):
     print center, current_depth, max_depth, taboo_list
